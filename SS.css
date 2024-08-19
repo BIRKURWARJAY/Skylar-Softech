@@ -8,6 +8,10 @@
   html {
     scroll-behavior: smooth;
   }
+
+  body{
+    overflow-x: hidden;
+  }
   
   a {
     cursor: pointer;
@@ -161,10 +165,8 @@
   .expro {
     margin-top: 100px;
     margin-left: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     padding: 20px 0px;
+    overflow-x: hidden;
   }
   
   .expro span {
@@ -173,17 +175,24 @@
     color: #1f1f1f;
   }
 
-.p1 img{
-   width: 21%;
+  .slide{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+  
+
+.projects img{
    padding: 20px;
-   height: 30%;
    margin-left: 3%;
+   width: 40%;
 }
 
   
   .partners_sec {
-    margin: 100px auto;
+    margin: 100px 0px 100px 60px;
   }
+
   
   .cm {
     font-size: 52px;
