@@ -11,6 +11,23 @@
 
   body{
     overflow-x: hidden;
+    min-width: 345px;
+  }
+
+  .card img{
+    width: 100%;
+    aspect-ratio: 16/7;
+  }
+  
+
+  header{
+    background-color: rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(10px) !important;
+    z-index: 1;
+  }
+
+  .nav-item{
+    padding-inline: 3px;
   }
   
   a {
@@ -32,6 +49,14 @@
     font-size: 16px;
     font-weight: 500;
     font-family: roboto,arial;
+  }
+
+  .carousel-inner{
+    scroll-snap-type: x mandatory;
+  }
+
+  .carousel-item{
+    scroll-snap-align: 1440px;
   }
   
  
@@ -190,7 +215,7 @@
 
   
   .partners_sec {
-    margin: 100px 0px 100px 60px;
+    margin: 100px 60px;
   }
 
   
